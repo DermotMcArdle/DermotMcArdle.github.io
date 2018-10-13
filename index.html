@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=windows-1252" charset="utf-8">
+    <!-- Tells the browser what the title of this page should be. -->
+    <title>MyResume</title>
+    <link href='https://fonts.googleapis.com/css?family=Sanchez' rel='stylesheet' type='text/css'>    <!-- <link rel="stylesheet" href="css/bootstrap.min.css"> -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <!-- use on-line versions of jquery and bootstrap: these are quicker when page is hosted externally -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="http://maps.googleapis.com/maps/api/js?libraries=places"></script>
+    <script src="js/modal.js"></script>
+    <script src="js/googleMap.js"></script>
+</head>
+
+<body class="container">
+    <div class="row super-intro">
+        <div class="col-md-6"><img class="title-logo img-responsive" data-toggle="modal" data-target="#myModal5" src="images/BJJProf.jpg" height="200" width="200"></div>
+        <div class="col-md-6 text-right">
+            <h1 class="title-super text-thin">Casey McArdle</h1>
+            <h3>Aspiring Engineer & Programmer</h3>
+        </div>
+    </div>
+    <div class="row text-center">
+        <h2>Click on each image to find out more...</h2>
+    </div>
+    <div class="row text-center">
+        <div class="col-md-6">
+            <!-- 08-08-2015 DMc data-toggle, data-target added to call MODAL POP UP WINDOW below-->
+            <img class="img-responsive" src="images/coding.jpg" data-toggle="modal" data-target="#myModal1">
+            <h3>Skills</h3>
+            <br>
+        </div>
+        <div class="col-md-6">
+            <img class="img-responsive" src="images/educa.jpg" data-toggle="modal" data-target="#myModal2">
+            <h3>Education</h3>
+        </div>
+    </div>
+    <div class="row text-center">
+        <div class="col-md-6">
+            <img class="img-responsive" src="images/work.jpg" data-toggle="modal" data-target="#myModal3">
+            <h3>Work Experience</h3>
+        </div>
+        <div class="col-md-6">
+            <img class="img-responsive" src="images/hobbies.jpg" data-toggle="modal" data-target="#myModal4">
+            <h3>Lifestyle Interests</h3>
+            <br>
+        </div>
+    </div>
+    <div class="row">
+        <img class="img-responsive col-md-12" src="images/cool.jpg" data-toggle="modal" data-target="#myModal0">
+        <div class="col-md-12 text-center">
+        <h3>Where I've Lived And Worked</h3>
+        </div
+    </div>
+
+    <!-- 08-08-2016 DMc MODAL POP UP WINDOW -->
+    <div class="modal fade" id="myModal0" tabindex="-2" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-content">
+          <h4 class="modal-title">Locations: Casey McArdle</h4>
+            <div class="modal-body" id="modalText0" style="width:530px; height:530px"></div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="myModal1" tabindex="-2" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-content">
+            <div class="modal-body" id="modalText1"></div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="myModal2" tabindex="-2" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-content">
+              <div class="modal-body" id="modalText21"></div>
+              <div class="col-md-6" id="modalText2"></div>
+              <div class="col-md-6" id="modalText25"></div>
+              <div class="container-fluid text-center"></div>
+              <div class="modal-footer">
+                  <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+              </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="myModal3" tabindex="-2" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-content">
+            <div class="modal-body" id="modalText3"></div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="myModal4" tabindex="-2" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-content">
+            <div class="modal-body" id="modalText4"></div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="myModal5" tabindex="-2" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-content">
+            <div class="modal-body" id="modalText5"></div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+    <!-- 08-08-2015 DMc MODAL POP UP WINDOW END -->
+    </body>
+</html>

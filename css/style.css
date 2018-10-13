@@ -1,0 +1,34 @@
+body{
+  font-family: 'Sanchez', serif;
+  background: #0e0816;
+  color:#e7dfdd;
+  opacity: 0.95;
+
+}
+.text-thin{
+  font-weight: 300;
+}
+
+.title-super{
+  font-size: 60px;
+}
+.title-logo{
+  margin: 20px;
+}
+
+a{
+  color: #4717f6;
+}
+
+.modal,
+.fade{
+
+  color:black;
+}
+
+.orange-text {
+  color: #f5ae23;
+}
+.black-text {
+  color: #000000;
+}
